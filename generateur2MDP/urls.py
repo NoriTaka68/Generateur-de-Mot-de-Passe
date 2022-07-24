@@ -20,5 +20,5 @@ from generateur import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home),
-    path('test',views.test),
+    path('motdepasse',views.motdepasse),
 ]

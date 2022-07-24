@@ -7,3 +7,6 @@ def home(request):
 
 def test(request):
     return HttpResponse('Test')
+
+def motdepasse(request):
+    return render(request, 'generateur\motdepasse.html')
